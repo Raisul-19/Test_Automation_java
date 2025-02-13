@@ -1,0 +1,13 @@
+package welcome;
+
+public class EmployeePOJOCaller {
+	
+	public static void main(String[] args) {
+		employeePOJO  empojo = new employeePOJO();
+		empojo.setEmployeeName("Raisul");
+		
+		System.out.println(empojo.getEmployeeName());
+	
+	}
+
+}

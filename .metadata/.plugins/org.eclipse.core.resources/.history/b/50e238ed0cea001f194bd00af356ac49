@@ -1,0 +1,15 @@
+package oop;
+
+public class CallingAnimal {
+	
+	public static void main(String[] args) {
+		
+		Dog dogobj = new Dog();
+
+		
+		
+		
+		
+		}
+
+}

@@ -1,0 +1,40 @@
+package welcome;
+
+public class EmployeePOJOCaller {
+	
+	public static void main(String[] args) {
+		
+		EmployeePOJO empojo = new EmployeePOJO();
+		
+		empojo.setEmployeeName("Raisul");
+		empojo.setEmployeeAge(20);
+		empojo.setEmployeeDepartment("IT");
+		
+		
+		EmployeePOJO empojo1 = new EmployeePOJO();
+		
+		empojo1.setEmployeeName("Raisul");
+		empojo1.setEmployeeAge(20);
+		empojo1.setEmployeeDepartment("IT");
+		
+		
+		EmployeePOJO empojo2 = new EmployeePOJO();
+		
+		empojo2.setEmployeeName("Raisul");
+		empojo2.setEmployeeAge(20);
+		empojo2.setEmployeeDepartment("IT");
+		
+		
+		
+		System.out.println(empojo.getEmployeeName());
+		System.out.println(empojo.getEmployeeAge());
+		System.out.println(empojo.getEmployeeDepartment());
+		
+		
+		
+		
+		
+		
+	}
+
+}

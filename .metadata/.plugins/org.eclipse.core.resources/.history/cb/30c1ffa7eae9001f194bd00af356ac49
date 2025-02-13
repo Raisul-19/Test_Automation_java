@@ -1,0 +1,23 @@
+package welcome;
+
+public class EmployeePOJOCaller {
+	
+	public static void main(String[] args) {
+		employeePOJO  empojo = new employeePOJO();
+		empojo.setEmployeeName("Raisul");
+		empojo.setEmployeeAge(18);
+		empojo.setEmployeeDepartment(IT);
+		
+		employeePOJO  empojo1 = new employeePOJO();
+		empojo1.setEmployeeName("Islam");
+		empojo1.setEmployeeAge(20);
+		empojo1.setEmployeeDepartment("Medical");
+		
+		employeePOJO  empojo2 = new employeePOJO();
+		empojo2.setEmployeeName("Hridoy");
+		empojo2.setEmployeeAge(22);
+		empojo2.setEmployeeDepartment("Business");
+		
+	}
+
+}

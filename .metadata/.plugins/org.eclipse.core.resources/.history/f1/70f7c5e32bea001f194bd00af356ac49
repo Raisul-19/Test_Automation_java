@@ -1,0 +1,15 @@
+package oop;
+
+public class LogicLoops {
+	
+	public static void main(String[] args) {
+		
+		for(int age = 10; age <= 25; age++) {
+			
+			System.out.println("the age is (" + age + ") so");
+		}
+		
+		
+	}
+
+}
