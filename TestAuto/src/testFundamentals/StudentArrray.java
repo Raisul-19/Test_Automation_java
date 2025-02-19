@@ -9,27 +9,28 @@ public class StudentArrray {
 		Studen std2 = new Studen(102, "Islam", "CSE");
 		Studen std3 = new Studen(103, "Hridoy", "BBA");
 		
-		
-		
 		ArrayList<Studen> StudentList = new ArrayList<Studen>();
 		StudentList.add(std1);
 		StudentList.add(std2);
 		StudentList.add(std3);
 		
-		// itaretor
-		Iterator<Studen> irt = StudentList.iterator();
-		while(irt.hasNext()) {
-			System.out.println("Studenbt from iterator while loop : " + irt.next().getId());
-			System.out.println();
-			
+		
+		// iterator..
+		
+		Iterator<Studen> itrt = StudentList.iterator();
+		
+		while(itrt.hasNext()) {
+			System.out.println("inside the while loop..." + itrt.next().getName());
 		}
 		
-		for(Studen std : StudentList) {
-			System.out.println("Student from enhanced for loop student Id : " + std.getId());
-			System.out.println("Student from enhanced for loop student Name : " + std.getName());
-			System.out.println("Student from enhanced for loop student Level : " + std.getLevel());
-			System.out.println();
+		// for loop
+		for(Studen std:StudentList) {
+			System.out.println("inside the for loop.....name == " + std.getName());
+			System.out.println("inside the for loop.....ID == " + std.getId());
+			System.out.println("inside the for loop.....Level == " + std.getLevel());
+			
 		}
+	
 	}
 	
 
